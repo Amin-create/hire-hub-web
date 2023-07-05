@@ -53,12 +53,7 @@
   --bs-body-bg: #f5f5f9;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
+ 
 :root {
   font-size: var(--bs-root-font-size);
 } 
