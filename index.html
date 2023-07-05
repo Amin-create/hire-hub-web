@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/btn-core.css" />
+    <link rel="stylesheet" href="assets/css/card-core.css" />
   </head>
 
   <body>
@@ -76,24 +77,44 @@
                         </li>
                         <li><a href="contact.html">Contact</a></li>
                         <div
-                          class="header-btn d-flex justify-content-center f- right d-lg-none"
+                          class="header-btn d-flex justify-content-center d-lg-none gap-x-2"
                         >
-                          <a href="#" class="btn head-btn1 py-4">Register</a>
-                          <a href="#" class="btn head-btn2 py-4">Login</a>
+                          <a href="#" class="p-0">
+                            <button
+                              type="button"
+                              class="btn btn-primary text-nowrap"
+                            >
+                              Register
+                            </button>
+                          </a>
+                          <a href="#" class="p-0">
+                            <button
+                              type="button"
+                              class="btn-with-icon btn btn-outline-secondary"
+                            >
+                              Login
+                            </button>
+                          </a>
                         </div>
                       </ul>
                     </nav>
                   </div>
                   <!-- Header-btn -->
                   <div class="header-btn d-none f-right d-lg-block">
-                    <a href="#" class="btn head-btn1">Register</a>
-                    <a href="#"  ><button
+                    <!-- <a href="#" class="btn head-btn1">Register</a> -->
+                    <a href="#">
+                      <button type="button" class="btn btn-primary text-nowrap">
+                        Register
+                      </button>
+                    </a>
+                    <a href="#"
+                      ><button
                         type="button"
                         class="btn-with-icon btn btn-outline-secondary"
                       >
-                     Login
-                      </button></a>
-                    
+                        Login
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -128,7 +149,7 @@
               <div class="row">
                 <div class="col-xl-8">
                   <!-- form -->
-                  <form action="#" class="search-box">
+                  <form action="#" class="search-box overflow-hidden brr">
                     <div class="input-form">
                       <input type="text" placeholder="Job Tittle or keyword" />
                     </div>
@@ -279,13 +300,13 @@
                 <p class="pera2">Make a Difference with Your Online Resume!</p>
                 <!-- <a href="#" class="border-btn2 border-btn4">Upload your cv</a> -->
                 <a href="#">
-                    <button
-                      type="button"
-                      class="btn-with-icon btn btn-outline-secondary px-5 py-4"
-                    >
+                  <button
+                    type="button"
+                    class="btn-with-icon btn btn-outline-secondary px-5 py-4"
+                  >
                     Upload your cv
-                    </button>
-                  </a>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -307,99 +328,107 @@
           <div class="row justify-content-center">
             <div class="col-xl-10">
               <!-- single-job-content -->
-              <div class="single-job-items mb-30">
-                <div class="job-items">
-                  <div class="company-img">
-                    <a href="job_details.html"
-                      ><img src="assets/img/icon/job-list1.png" alt=""
-                    /></a>
+              <div class="card mb-30">
+                <div class="card-body single-job-items">
+                  <div class="job-items">
+                    <div class="company-img">
+                      <a href="job_details.html"
+                        ><img src="assets/img/icon/job-list1.png" alt=""
+                      /></a>
+                    </div>
+                    <div class="job-tittle">
+                      <a href="job_details.html"><h4>Digital Marketer</h4></a>
+                      <ul>
+                        <li>Creative Agency</li>
+                        <li>
+                          <i class="fas fa-map-marker-alt"></i>Athens, Greece
+                        </li>
+                        <li>$3500 - $4000</li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="job-tittle">
-                    <a href="job_details.html"><h4>Digital Marketer</h4></a>
-                    <ul>
-                      <li>Creative Agency</li>
-                      <li>
-                        <i class="fas fa-map-marker-alt"></i>Athens, Greece
-                      </li>
-                      <li>$3500 - $4000</li>
-                    </ul>
+                  <div class="items-link f-right">
+                    <a href="job_details.html">Full Time</a>
+                    <span>7 hours ago</span>
                   </div>
-                </div>
-                <div class="items-link f-right">
-                  <a href="job_details.html">Full Time</a>
-                  <span>7 hours ago</span>
                 </div>
               </div>
               <!-- single-job-content -->
-              <div class="single-job-items mb-30">
-                <div class="job-items">
-                  <div class="company-img">
-                    <a href="job_details.html"
-                      ><img src="assets/img/icon/job-list2.png" alt=""
-                    /></a>
+              <div class="card mb-30">
+                <div class="card-body single-job-items">
+                  <div class="job-items">
+                    <div class="company-img">
+                      <a href="job_details.html"
+                        ><img src="assets/img/icon/job-list2.png" alt=""
+                      /></a>
+                    </div>
+                    <div class="job-tittle">
+                      <a href="job_details.html"><h4>Digital Marketer</h4></a>
+                      <ul>
+                        <li>Creative Agency</li>
+                        <li>
+                          <i class="fas fa-map-marker-alt"></i>Athens, Greece
+                        </li>
+                        <li>$3500 - $4000</li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="job-tittle">
-                    <a href="job_details.html"><h4>Digital Marketer</h4></a>
-                    <ul>
-                      <li>Creative Agency</li>
-                      <li>
-                        <i class="fas fa-map-marker-alt"></i>Athens, Greece
-                      </li>
-                      <li>$3500 - $4000</li>
-                    </ul>
+                  <div class="items-link f-right">
+                    <a href="job_details.html">Full Time</a>
+                    <span>7 hours ago</span>
                   </div>
-                </div>
-                <div class="items-link f-right">
-                  <a href="job_details.html">Full Time</a>
-                  <span>7 hours ago</span>
                 </div>
               </div>
               <!-- single-job-content -->
-              <div class="single-job-items mb-30">
-                <div class="job-items">
-                  <div class="company-img">
-                    <a href="job_details.html"
-                      ><img src="assets/img/icon/job-list3.png" alt=""
-                    /></a>
+              <div class="card mb-30">
+                <div class="card-body single-job-items">
+                  <div class="job-items">
+                    <div class="company-img">
+                      <a href="job_details.html"
+                        ><img src="assets/img/icon/job-list3.png" alt=""
+                      /></a>
+                    </div>
+                    <div class="job-tittle">
+                      <a href="job_details.html"><h4>Digital Marketer</h4></a>
+                      <ul>
+                        <li>Creative Agency</li>
+                        <li>
+                          <i class="fas fa-map-marker-alt"></i>Athens, Greece
+                        </li>
+                        <li>$3500 - $4000</li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="job-tittle">
-                    <a href="job_details.html"><h4>Digital Marketer</h4></a>
-                    <ul>
-                      <li>Creative Agency</li>
-                      <li>
-                        <i class="fas fa-map-marker-alt"></i>Athens, Greece
-                      </li>
-                      <li>$3500 - $4000</li>
-                    </ul>
+                  <div class="items-link f-right">
+                    <a href="job_details.html">Full Time</a>
+                    <span>7 hours ago</span>
                   </div>
-                </div>
-                <div class="items-link f-right">
-                  <a href="job_details.html">Full Time</a>
-                  <span>7 hours ago</span>
                 </div>
               </div>
               <!-- single-job-content -->
-              <div class="single-job-items mb-30">
-                <div class="job-items">
-                  <div class="company-img">
-                    <a href="job_details.html"
-                      ><img src="assets/img/icon/job-list4.png" alt=""
-                    /></a>
+              <div class="card mb-30">
+                <div class="card-body single-job-items">
+                  <div class="job-items">
+                    <div class="company-img">
+                      <a href="job_details.html"
+                        ><img src="assets/img/icon/job-list4.png" alt=""
+                      /></a>
+                    </div>
+                    <div class="job-tittle">
+                      <a href="job_details.html"><h4>Digital Marketer</h4></a>
+                      <ul>
+                        <li>Creative Agency</li>
+                        <li>
+                          <i class="fas fa-map-marker-alt"></i>Athens, Greece
+                        </li>
+                        <li>$3500 - $4000</li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="job-tittle">
-                    <a href="job_details.html"><h4>Digital Marketer</h4></a>
-                    <ul>
-                      <li>Creative Agency</li>
-                      <li>
-                        <i class="fas fa-map-marker-alt"></i>Athens, Greece
-                      </li>
-                      <li>$3500 - $4000</li>
-                    </ul>
+                  <div class="items-link f-right">
+                    <a href="job_details.html">Full Time</a>
+                    <span>7 hours ago</span>
                   </div>
-                </div>
-                <div class="items-link f-right">
-                  <a href="job_details.html">Full Time</a>
-                  <span>7 hours ago</span>
                 </div>
               </div>
             </div>
